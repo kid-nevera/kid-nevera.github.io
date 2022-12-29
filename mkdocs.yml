@@ -1,0 +1,56 @@
+site_name: Kulturno-identitetsko društvo Nevera
+copyright: Kulturno-identitetsko društvo Nevera, 2021 - 2023.
+theme:
+  name: mkdocs
+  language: hr
+use_directory_urls: false
+
+markdown_extensions:
+  - footnotes
+  - toc:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: none
+
+plugins:
+  - search
+  - tags:
+      tags_file: aktivnosti/index.md
+
+nav:
+  - Nevera: index.md
+  - Aktivnosti:
+    - Pregled aktivnosti: aktivnosti/index.md
+    - Održano predavanje dr. sc. Tomislava Sunića u Rijeci (30. travnja 2022.): aktivnosti/2022-04-30-predavanje-dr-sc-tomislava-sunica.md
+  - Biblioteka:
+    - Tomislav Sunić - Europska Nova desnica:
+      - Naslovnica, impressum i kazalo sadržaja: biblioteka/tomislav-sunic-europska-nova-desnica/index.md
+      - Preambula:
+        - Prolog drugom hrvatskom izdanju: biblioteka/tomislav-sunic-europska-nova-desnica/0-1-prolog-drugom-hrvatskom-izdanju.md
+        - Prolog prvom hrvatskom izdanju: biblioteka/tomislav-sunic-europska-nova-desnica/0-2-prolog-prvom-hrvatskom-izdanju.md
+        - Predgovor autora hrvatskom izdanju: biblioteka/tomislav-sunic-europska-nova-desnica/0-3-predgovor-autora-hrvatskom-izdanju.md
+        - Predgovor Paula Gottfrieda engleskom izdanju: biblioteka/tomislav-sunic-europska-nova-desnica/0-4-predgovor-paula-gottfrieda-engleskom-izdanju.md
+        - Jedna povijest. Predgovor Alaina de Benoista: biblioteka/tomislav-sunic-europska-nova-desnica/0-5-jedna-povijest-predgovor-alaina-de-benoista.md
+      - Nova desnica:
+        - Uvod: biblioteka/tomislav-sunic-europska-nova-desnica/1-1-uvod.md
+        - Pojava Nove desnice: biblioteka/tomislav-sunic-europska-nova-desnica/1-2-pojava-nove-desnice.md
+        - Antonio Gramsci na desnici: biblioteka/tomislav-sunic-europska-nova-desnica/1-3-antonio-gramsci-na-desnici.md
+        - Konzervativna ljevica ili revolucionarna desnica?: biblioteka/tomislav-sunic-europska-nova-desnica/1-4-konzervativna-ljevica-ili-revolucionarna-desnica.md
+        - Carl Schmitt i politika kao sudbina: biblioteka/tomislav-sunic-europska-nova-desnica/1-5-carl-schmitt-i-politika-kao-sudbina.md
+        - Oswald Spengler i povijest kao sudbina: biblioteka/tomislav-sunic-europska-nova-desnica/1-6-oswald-spengler-i-povijest-kao-sudbina.md
+        - Vilfredo Pareto i politička patologija: biblioteka/tomislav-sunic-europska-nova-desnica/1-7-vilfredo-pareto-i-politicka-patologija.md
+        - Poganska desnica: biblioteka/tomislav-sunic-europska-nova-desnica/1-8-poganska-desnica.md
+      - Egalitarna mistika. Korijeni suvremene krize:
+        - Uvod: biblioteka/tomislav-sunic-europska-nova-desnica/2-1-uvod.md
+        - Metafizika jednakosti: biblioteka/tomislav-sunic-europska-nova-desnica/2-2-metafizika-jednakosti.md
+        - Nova desnica i nedostižna jednakost: biblioteka/tomislav-sunic-europska-nova-desnica/2-3-nova-desnica-i-nedostizna-jednakost.md
+        - Homo economicus - rat svih protiv sviju: biblioteka/tomislav-sunic-europska-nova-desnica/2-4-homo-economicus-rat-svih-protiv-sviju.md
+        - Totalitarizam i egalitarizam: biblioteka/tomislav-sunic-europska-nova-desnica/2-5-totalitarizam-i-egalitarizam.md
+        - Homo sovieticus - komunizam kao egalitarna entropija: biblioteka/tomislav-sunic-europska-nova-desnica/2-6-homo-sovieticus-komunizam-kao-egalitarna-entropija.md
+        - Zaključak: biblioteka/tomislav-sunic-europska-nova-desnica/2-7-zakljucak.md
+      - Dodatak:
+        - Biografske crtice: biblioteka/tomislav-sunic-europska-nova-desnica/3-1-biografske-crtice.md
+        - Manifest za europsku obnovu - Nova desnica u 21. stoljeću: biblioteka/tomislav-sunic-europska-nova-desnica/3-2-manifest-za-europsku-obnovu.md
+        - Europski sin - intervju s Alainom de Benoistom: biblioteka/tomislav-sunic-europska-nova-desnica/3-3-europski-sin-intervju-s-alainom-de-benoistom.md
+      - Bibliografija: biblioteka/tomislav-sunic-europska-nova-desnica/bibliografija.md
+      - Abecedni popis: biblioteka/tomislav-sunic-europska-nova-desnica/abecedni-popis.md
